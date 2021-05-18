@@ -1,0 +1,6 @@
+.vscode/
+nikto/
+src/
+settings.json
+# .env
+# credentials.json

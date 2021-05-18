@@ -1,0 +1,59 @@
+@font-face {
+	font-family: 'Material Icons';
+	src: url(./Material-Icons.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'Material Outlined';
+	src: url(./Material-Icons-Outlined.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'Material Round';
+	src: url(./Material-Icons-Round.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'Material Sharp';
+	src: url(./Material-Icons-Sharp.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'Material TwoTone';
+	src: url(./Material-Icons-TwoTone.woff2) format('woff2');
+}
+
+.g-icons {
+	display: inline-block;
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: 1;
+	vertical-align: middle;
+
+	/* Support for all WebKit browsers. */
+	-webkit-font-smoothing: antialiased;
+	/* Support for Safari and Chrome. */
+	text-rendering: optimizeLegibility;
+	/* Support for Firefox. */
+	-moz-osx-font-smoothing: grayscale;
+	/* Support for IE. */
+	font-feature-settings: 'liga';
+}
+
+.g-icons.outline {
+	font-family: 'Material Outlined';
+}
+
+.g-icons.round {
+	font-family: 'Material Round';
+}
+
+.g-icons.sharp {
+	font-family: 'Material Sharp';
+}
+
+.g-icons.tone {
+	font-family: 'Material TwoTone';
+}

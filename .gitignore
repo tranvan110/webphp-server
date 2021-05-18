@@ -1,0 +1,6 @@
+vendor/
+.vscode/
+.git/
+web/nikto/
+.env
+# credentials.json
